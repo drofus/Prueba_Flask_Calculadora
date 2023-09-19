@@ -8,8 +8,8 @@ Este proyecto es una calculadora web simple que permite a los usuarios realizar 
 - Resta
 - Multiplicación
 - División
--Potencia
--Raiz
+- Potencia
+- Raiz
 
 ## Instrucciones de Uso
 1. Instala las dependencias utilizando `pip install Flask`.
@@ -18,4 +18,6 @@ Este proyecto es una calculadora web simple que permite a los usuarios realizar 
 4. Realiza las operaciones matemáticas utilizando la interfaz de usuario.
 
 ## Capturas de Pantalla
-![Calculadora Web](Calculadora_1.png)
+![Captura de pantalla](Calculadora_1.png)
+
+
