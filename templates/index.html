@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <form action="/calcular" method="post">
+        <input type="number" name="n1" placeholder="Número 1" step="0.01" required><br><br>
+        <input type="number" name="n2" placeholder="Número 2" step="0.01" required><br><br>
+        <select name="opp" required>
+            <option value="Suma">Suma (+)</option>
+            <option value="Resta">Resta (-)</option>
+            <option value="Multiplicación">Multiplicación (*)</option>
+            <option value="División">División (/)</option>
+            <option value="Raiz">Raíz</option>
+            <option value="Potencia">Potencia </option>
+        </select><br><br>
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>
